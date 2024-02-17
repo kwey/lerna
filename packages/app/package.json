@@ -22,8 +22,8 @@
     "not ie <= 8"
   ],
   "dependencies": {
-    "@kwe/body": "^0.0.2",
-    "@kwe/top": "^0.1.0"
+    "@kwe/body": "workspace:*",
+    "@kwe/top": "workspace:*"
   },
   "devDependencies": {
     "@types/chai": "4.3.3",

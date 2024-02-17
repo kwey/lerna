@@ -32,7 +32,7 @@ module.exports = (env, argv) => {
 		stats: {
 			modules: false,
 		},
-		entry: { kwe: './src/index.ts' },
+		entry: { body: './src/index.ts' },
 		output: {
 			// https://webpack.docschina.org/configuration/output/#outputpublicpath
 			publicPath,
