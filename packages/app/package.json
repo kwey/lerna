@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "module": "./src/index.ts",
   "types": "./src/index.ts",
@@ -21,8 +21,8 @@
     "not ie <= 8"
   ],
   "dependencies": {
-    "@kwe/body": "^0.0.1",
-    "@kwe/top": "^0.0.1"
+    "@kwe/body": "^0.0.2",
+    "@kwe/top": "^0.0.2"
   },
   "devDependencies": {
     "@types/chai": "4.3.3",
