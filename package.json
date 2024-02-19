@@ -4,9 +4,7 @@
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
-        "build": "pnpm -r exec pnpm run build",
-        "v": "changeset version",
-        "publish": "pnpm changeset publish --tag beta"
+        "build": "pnpm -r exec pnpm run build"
     },
     "devDependencies": {
         "@changesets/cli": "2.27.1",

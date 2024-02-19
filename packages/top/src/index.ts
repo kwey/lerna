@@ -4,6 +4,6 @@ export interface IConfig {
 }
 
 export function top(params:any) {
-     console.log('---top--ss-d--')
+     console.log('---top--ss--')
     
 }
